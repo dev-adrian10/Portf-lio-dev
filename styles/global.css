@@ -1,0 +1,31 @@
+body{
+  font: var(--font-family);
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+  display: block;
+}
+
+
+:root {
+   --brand-color-light: #E3646E;
+   --brand-color-dark: #BB72E9;
+   --stroke-color: #3996DB;
+   --bg-color: #0D0E11;
+   --text-color-primary: #E2E4E9;
+   --text-color-secundary: #C0C4CE;
+
+
+   --font-family:'Asap';
+   --title-lg: 56px/120%  var(--font-family);
+   --title-md: 24px/120%  var(--font-family);
+   --title-sm: 16px/120%  var(--font-family);
+
+   --font-family:'Inconsolata';
+   --subtitle:  20px/120% var(--font-family);
+}
+
+
+ img {
+    max-width: 100%;
+ } 
+
