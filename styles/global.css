@@ -1,8 +1,6 @@
-body{
-  font: var(--font-family);
-  color: var(--text-color-primary);
-  background-color: var(--bg-color);
-  display: block;
+header  {
+   display: inline;
+
 }
 
 
@@ -11,21 +9,45 @@ body{
    --brand-color-dark: #BB72E9;
    --stroke-color: #3996DB;
    --bg-color: #0D0E11;
-   --text-color-primary: #E2E4E9;
+   --text-color-primary: #e2e4e9;
    --text-color-secundary: #C0C4CE;
 
 
    --font-family:'Asap';
-   --title-lg: 56px/120%  var(--font-family);
-   --title-md: 24px/120%  var(--font-family);
-   --title-sm: 16px/120%  var(--font-family);
+   --h1: 60px/140%  var(--font-family);
+   --h2: 12px/140%  var(--font-family);
+   --h3: 14px/140%  var(--font-family);
 
    --font-family:'Inconsolata';
-   --subtitle:  20px/120% var(--font-family);
+   --h4: 20px/140% var(--font-family);
 }
 
-
+body {
+ background-color: var(--bg-color);
+ 
  img {
-    max-width: 100%;
- } 
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+ }
+ div  {
+    margin: 3px;
+    padding: 24px;
+    border-image: 10%;
+ }
+}
+ 
 
+
+.content-tag {
+   gap: 16px;
+   display: inline-block;
+   background-color: var(--brand-color-dark);
+   padding: 4px 8px;
+   border-radius: 4px;
+   font: var(--font-family);
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   color: var(--text-color-primary);
+   box-shadow: 8px  4px 10px rgba(2, 6, 23, 0.251);
+}
